@@ -1,0 +1,30 @@
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username":"Ramu",
+    "password":"post123"
+}
+###
+GET http://localhost:3001/api/getAllProducts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtdSIsImlhdCI6MTYxOTU3Nzc5M30._m47mEHy-WG4lXdUwGkdo32ktCWwImz2yA2xRsocPgk
+
+###
+GET http://localhost:3001/api/Movies/movies recommendations
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtdSIsImlhdCI6MTYxOTYwNzQ5NX0.NNVo_sP7wnjIMZChjv79kWa364Zdql2YqhmqofmkIiI
+###
+GET http://localhost:3001/api/flowers/flowers suggestions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtdSIsImlhdCI6MTYxOTU3Nzc5M30._m47mEHy-WG4lXdUwGkdo32ktCWwImz2yA2xRsocPgk
+###
+GET http://localhost:3001/api/Dance/Dance suggestions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtdSIsImlhdCI6MTYxOTc2MDc2Nn0.AfkI1tvcUE_Eu6w95SbQD2KAH5QbbHGG4sEebxuaGEQ
+###
+GET http://localhost:3001/api/api1/Dance suggestions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtdSIsImlhdCI6MTYxOTc2MDc2Nn0.AfkI1tvcUE_Eu6w95SbQD2KAH5QbbHGG4sEebxuaGEQ
+###
+GET  http://localhost:3002/api/getAllProducts
+Content-Type: application/json
+{
+    "access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNjE5NTQ0MjEwLCJleHAiOjE2MTk1NDU2NTB9.3Cgaf7wX9SO39cJlhRDKOeGsHPC9l75Pp_FlVGsIzmQ"
+}
+

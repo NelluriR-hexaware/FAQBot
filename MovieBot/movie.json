@@ -1,0 +1,7 @@
+{ "id" : ["Do you watch south indian movies?","Is south movies are intresting?","Will I be able to get south_indian movies on north?","Where do you see south movies?","I need south movies to watch"],
+    "get_call_details": ["give me your number", "contact details please","mobile number please","call details for delivery"],
+   
+    "movie_suggestion": ["movies suggest","movies recommendations", "recommended movies", "suggested movies should I watch?"
+   ,   "moviesfor kids", "movies watch"],
+   "NationalAwardWinning":["NationalAwardWinning movies","Awarded movies","movies list who win national awards"]
+    }
